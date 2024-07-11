@@ -1,0 +1,30 @@
+/* src/components/home/home.css */
+
+.home {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: Set a background color */
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.home p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.profile-image {
+    width: 80%; /* Take up 80% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    margin-top: 20px;
+}

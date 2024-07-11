@@ -1,0 +1,34 @@
+/* src/components/resume/resume.css */
+
+.resume {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resume h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.resume p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.resume a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
